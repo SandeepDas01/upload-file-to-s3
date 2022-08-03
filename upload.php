@@ -1,6 +1,24 @@
 <?php
  // download file from here - https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/getting-started_installation.html
  // Change 3 place - IAM-key , IAM-secret , Bucket-name .
+
+
+// {
+  //  "Version": "2012-10-17",
+    //"Id": "Policy1659554577845",
+   // "Statement": [
+     //   {
+       //     "Sid": "Stmt1659554576466",
+         //   "Effect": "Allow",
+           // "Principal": "*",
+            //"Action": [
+             //   "s3:GetObject",
+               // "s3:PutObject"
+//            ],
+  //          "Resource": "arn:aws:s3:::demo794379session/*"
+    //    }
+   // ]
+//}
  
 	require './aws-autoloader.php';
 	
